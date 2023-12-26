@@ -31,7 +31,7 @@ function fetchAndDisplayMovies(sectionId, url) {
           });
         });
 
-        const shufflingInterval = 10 * 60 * 1000; // 10 minutes in milliseconds
+        const shufflingInterval = 3 * 60 * 1000; // 10 minutes in milliseconds
         setInterval(() => {
           shuffleCards(cardContainer);
         }, shufflingInterval);
