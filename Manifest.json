@@ -2,7 +2,7 @@
   "name": "Piccolo",
   "short_name": "Piccolo",
   "description": "the video streaming platform built on coffee, code, and a whole lotta sleepless nights",
-  "start_url": "feed.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "black",
   "theme_color": "#8a2be2",
