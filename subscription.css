@@ -1,0 +1,251 @@
+body {
+    font-family: 'Lexend', sans-serif;
+    background-color: black;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%; /* Make the container responsive to the viewport width */
+    margin: 0 auto;
+}
+
+z{
+  color:rgba(138,6,128,0.987);
+  font-size: 10px;
+  font-weight: 50px;
+}
+
+.container h1{
+ font-size: 20px; 
+}
+
+.slide {
+    display: none;
+    max-width: 100%; /* Make the slides responsive to the container's width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.bank-details-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    animation: fadeIn 1s ease;
+}
+
+.bank-details-section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+.whatsapp-button {
+    background-color: #25d366;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e;
+}
+
+.material-icons.verified {
+    color: gold;
+    margin-right: 5px;
+}
+
+.instruction {
+    font-size: 16px;
+    color: #666;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.container {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    animation: fadeIn 1s ease;
+}
+
+.green-text {
+    color: green;
+}
+
+#user-info {
+    margin-top: 20px;
+}
+
+
+#subscription-form input {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    font-size: 15px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#submit-word{
+    background: linear-gradient(to left, #8a2be2, #ff00ff );
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #128c7e;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.subscription-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+header{
+  text-align: center;
+}
+
+.changing-gradient-text {
+    font-size: 3rem;
+    background-image: linear-gradient(45deg, #3494E6, #EC6EAD);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientChange 5s linear infinite, bounce 2s ease infinite;
+}
+
+@keyframes gradientChange {
+    0% {
+        background-image: linear-gradient(45deg, #8a2be2, #ff00ff);
+    }
+    25% {
+        background-image: linear-gradient(45deg, #ff00ff, #8a2be2);
+    }
+    50% {
+        background-image: linear-gradient(45deg, #8a2be2, #ff00ff);
+    }
+    75% {
+        background-image: linear-gradient(45deg, #ff00ff, #8a2be2);
+    }
+    100% {
+        background-image: linear-gradient(45deg, #8a2be2, #ff00ff);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+
+
+/* Add styles for the support section */
+.support-section {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.support-section h2 {
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+.support-section p {
+    font-size: 16px;
+    color: white;
+    margin: 10px 0;
+}
+
+.bank-details-section h2{
+  font-size: 15px;
+}
+
+#logout-button {
+    background:linear-gradient( to left,rgba(236,186,53,0.987), #FF5733);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    outline: none;
+    font-size: 18px;
+}

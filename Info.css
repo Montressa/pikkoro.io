@@ -1,0 +1,129 @@
+/* General styling */
+body {
+  font-family: 'Lexend', sans-serif;
+  margin: 0;
+  padding: 0;
+  color:whitesmoke;
+  background-color: black; /* Add a background color */
+}
+.backdrop-header{
+  justify-content: center;
+  width: 100vw;
+}
+.backdrop-header img{
+  width:100%;
+}
+
+header {
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* ... existing styles */
+
+.ratings {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.ratings h2 {
+  margin-bottom: 5px;
+}
+
+.ratings i {
+  color: gold; /* Change color as needed */
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.ratings .average-rating {
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+.poster-container {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.movie-details {
+  padding: 30px;
+  background-color: #000000ad; /* Add a white background */
+}
+
+/* Specific element styling */
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.play-button {
+  background:linear-gradient(45deg, #8a2be2, #2d103a);/* Blue background */
+  color: #fff;
+  font-size: 48px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  margin-bottom: 20px;
+transition: transform 0.3s ease; /* Smooth transform transition for scaling */
+}
+.play-button:hover {
+  transform: scale(1.1); /* Increase size on hover */
+}
+.play-button i {
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+.play-button:hover i {
+  color: #ffcc00; /* Change color on hover */
+}
+
+.movie-title {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+.genre,
+.runtime,
+.release-date {
+  margin-bottom: 5px;
+}
+.poster-container img {
+  height: 200px; /* Adjust size as needed */
+  width: auto;
+}
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: black; /* Adjust background color as needed */
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+.gradient-text {
+  font-weight: bold;
+  font-size: 1.2em;
+  background: linear-gradient(to right, #ff00ff, #8a2be2);
+  background-clip: text; /* Standard property */
+  -webkit-background-clip: text; /* For older WebKit browsers */
+  -webkit-text-fill-color: transparent;
+  animation: gradient-animation 5s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

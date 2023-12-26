@@ -1,0 +1,40 @@
+{
+  "movies": [
+    {
+      "title": "The Shawshank Redemption",
+      "vidmolyLink": " https://vidmoly.to/embed-4l6hlllfq8os.html",
+      "poster": "https://i.postimg.cc/jdMRrVng/27.jpg"
+    },
+    {
+      "title": "The Godfather",
+      "vidmolyLink": "https://vidmoly.to/embed-c1knae6wm46b.html",
+      "poster": "https://i.postimg.cc/jSCtx8zs/29.jpg"
+    },
+        {
+      "title": "Trolls Band Together",
+      "vidmolyLink": "https://vidmoly.to/354687954",
+      "poster": "https://i.postimg.cc/jSCtx8zs/29.jpg"
+    },
+    {
+      "title": "Secret Invasion",
+      "vidmolyLink": "https://vidmoly.to/354687954",
+      "poster": "https://i.postimg.cc/jSCtx8zs/29.jpg"
+    },
+    {
+      "title": "Rebel Moon",
+      "vidmolyLink": "https://vidmoly.to/354687954",
+      "poster": "https://i.postimg.cc/jSCtx8zs/29.jpg"
+    },
+    {
+      "title": "Aquaman and the lost kingdom",
+      "vidmolyLink": "https://vidmoly.to/354687954",
+      "poster": "https://i.postimg.cc/jSCtx8zs/29.jpg"
+    },
+    
+    {
+      "title": "The Dark Knight",
+      "vidmolyLink": "https://vidmoly.to/254687543",
+      "poster": "https://i.postimg.cc/bvJDjHvb/3.jpg "
+    }
+  ]
+}

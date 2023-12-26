@@ -1,0 +1,349 @@
+body {
+font-family: 'Lexend', sans-serif;
+  background: black;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+
+header {
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+font-family: 'Roboto', sans-serif;
+}
+
+header .watch-now-button {
+  width: 70px;
+  height: 20px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 500;
+  font-size:20px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+
+
+
+header .watch-now-button {
+  background: rgb(202, 165, 13);
+  border: none;
+  z-index: 1;
+}
+header .watch-now-button:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #eaf818;
+  background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5);
+  transition: all 0.3s ease;
+}
+
+header .watch-now-button:hover {
+  color: #000;
+}
+header .watch-now-button:hover:after {
+  top: auto;
+  bottom: 0;
+  height: 100%;
+}
+header .watch-now-button:active {
+  top: 2px;
+}
+
+
+
+
+
+main {
+    padding: 2rem;
+}
+
+main .details {
+font-family: 'Nunito', sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #3494E6, #EC6EAD);
+
+    padding: 20px;
+}
+
+main .details h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+main .details p {
+    font-size: 1rem;
+}
+
+main .details ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+main .details ul li {
+    margin-bottom: 0.5rem;
+}
+
+.changing-gradient-text {
+    font-size: 3rem;
+    background-image: linear-gradient(45deg, #3494E6, #EC6EAD);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientChange 5s linear infinite, bounce 2s ease infinite;
+}
+
+@keyframes gradientChange {
+    0% {
+        background-image: linear-gradient(45deg, #8a2be2, #ff00ff);
+    }
+    25% {
+        background-image: linear-gradient(45deg, #ff00ff, #8a2be2);
+    }
+    50% {
+        background-image: linear-gradient(45deg, #8a2be2, #ff00ff);
+    }
+    75% {
+        background-image: linear-gradient(45deg, #ff00ff, #8a2be2);
+    }
+    100% {
+        background-image: linear-gradient(45deg, #8a2be2, #ff00ff);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+
+.footer{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+
+ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  width: 404px;
+  height: 60px;
+}
+
+ul::before {
+  content: "Stalk Us";
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #ff00ff, #8a2be2);
+  border-radius: 30px;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  font-size: 20px;
+  padding-left: 2px;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+ul:hover::before {
+  content:"°°°";
+  width: 60px;
+}
+
+ul li {
+  position: absolute;
+  transition: 1s;
+}
+
+ul li a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #262626;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+ul li:nth-child(1) a {
+  background-color: #3b5999;
+}
+
+ul li:nth-child(2) a {
+  background-color: #55acee;
+}
+ul li:nth-child(3) a {
+  background-color: #dd4b39;
+}
+ul li:nth-child(4) a {
+  background-color: rgb(31,201,82);
+}
+ul li:nth-child(5) a {
+  background-color: #e4405f;
+}
+
+ul:hover li:nth-child(1) a {
+  transform: translatex(68px) rotate(360deg);
+  transition-delay: 0.8s;
+}
+
+ul:hover li:nth-child(2) a {
+  transform: translatex(136px) rotate(360deg);
+  transition-delay: 0.6s;
+}
+
+ul:hover li:nth-child(3) a {
+  transform: translatex(204px) rotate(360deg);
+  transition-delay: 0.4s;
+}
+
+ul:hover li:nth-child(4) a {
+  transform: translatex(272px) rotate(360deg);
+  transition-delay: 0.2s;
+}
+
+ul:hover li:nth-child(5) a {
+  transform: translatex(340px) rotate(360deg);
+  transition-delay: 0s;
+}
+
+.info{
+  color:#8a2be2;
+  text-align: center;
+}
+p2{
+  color:#8a2be2;
+}
+
+/* Add your styles here */
+.loader {
+  display: none;
+  border: 8px solid whitesmoke;
+  border-top: 8px solid #8a2be2;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+  z-index: 999;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.tutorial-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.tutorial-content {
+    text-align: center;
+}
+
+.dismiss-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #8a2be2;
+}
+
+h2 {
+    color: #333;
+}
+
+j {
+    font-size: 16px;
+    margin: 15px 0;
+    color: #d66363;
+}
+p {
+    font-size: 16px;
+    margin: 15px 0;
+    color: #555;
+}
+
+.animated-icons {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.bounce {
+    animation: bounceAnimation 0.5s infinite alternate;
+}
+
+@keyframes bounceAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}

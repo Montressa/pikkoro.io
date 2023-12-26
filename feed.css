@@ -1,0 +1,319 @@
+body{
+  font-family: 'Lexend', sans-serif;
+  background:black;
+}
+
+
+#username{
+  color:green;
+}
+#timer {
+  font-size: 20px;
+  text-align: center;
+  color:black;
+}
+
+#logout-button {
+  background: linear-gradient(40deg,#FF5733,#a34235 );
+    color: white;
+    outline: none;
+    border:none;
+}
+
+#logout-button:hover{
+  background: skyblue;
+  transform: scale(1.1);
+}
+
+    advert {
+      margin-top:px;
+      width:100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 0; /* Set a high z-index */
+      height:auto;
+    }
+    #ribbonContainer {
+      width:100%;
+      background: #470d593e;
+      color:whitesmoke;
+    }
+    .content-link{
+      background-color: #4CAF50; /* Green background color */
+      border-radius: 7px;
+      border: none;
+      color: white;
+      padding: 5px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      cursor: pointer;
+      margin: 0 5px; /* Add some spacing between buttons */
+    }
+.content-image {
+
+  width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain the aspect ratio of the image */
+  margin: 5px 0; /* Add margin for spacing */
+}
+.changing-gradient-text {
+    font-size: 1rem;
+    background-image: linear-gradient(45deg, #3494E6, #EC6EAD);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientChange 5s linear infinite, bounce 2s ease infinite;
+}
+#website-name{
+  background: transparent;
+  position: fixed;
+  margin-top:20px;
+position: relative;
+  top: 0.1px; /* Adjust top positioning as needed */
+  left: 15px; /* Adjust right positioning as needed */
+  z-index: 30;
+}
+@keyframes gradientChange {
+    0% {
+        background-image: linear-gradient(45deg, #8a2be2, #ff00ff); }
+    25% {
+        background-image: linear-gradient(45deg, #ff00ff, #8a2be2);
+    }
+    50% {
+        background-image: linear-gradient(45deg, #8a2be2, #ff00ff);
+    }
+    75% {
+        background-image: linear-gradient(45deg, #ff00ff, #8a2be2);
+    }
+    100% {
+        background-image: linear-gradient(45deg, #8a2be2, #ff00ff);
+    }
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+
+
+#toggleButton {
+  
+  background: #8a2be2;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  top: 8px; /* Adjust top positioning as needed */
+  right: 15px; /* Adjust right positioning as needed */
+  z-index: 30;
+  transition: transform 0.3s ease; /* Smooth transform transition for scaling */
+}
+#toggleButton:hover {
+  transform: scale(1.1); /* Increase size on hover */
+}
+#toggleButton i {
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+#toggleButton:hover i {
+  color: #ffcc00; /* Change color on hover */
+}
+#popup.modal {
+  animation-name: fadeInUp; /* Apply animation from animate.css */
+  animation-duration: 0.5s;
+  z-index:799999;
+}
+#slideshow .carousel-item {
+  animation-name: slideInRight;
+  animation-duration: 1s;
+}
+
+.logo-container {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 20px;
+    }
+.logo-container img {
+      width: 50px; /* Adjust the size as needed */
+    }
+ footer {
+   margin-top:10px;
+  background-color: #333;
+  color: white;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+}
+header{
+  z-index: 9999;
+}
+
+
+
+/* Import Animate.css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.2.0/animate.min.css');
+/* Carousel styles */
+.c-container {
+  display: flex;
+  position: relative;
+  overflow: scroll; /* Hide content outside the carousel */
+  gap:10px;
+}
+.c {
+  display: flex;
+  scroll-behavior: smooth; /* Smooth scrolling for better UX */
+}
+.c-item {
+  display: flex; /* Ensure cards stay in a single row */
+}
+/* Flexbox and card styles */
+.card-container {
+  display: flex;
+
+  overflow: scroll; /* Enable horizontal scrolling for cards */
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+  padding: 0.5rem;
+  margin: 0 -0.5rem;
+}
+.card {
+  
+  width: 200px; /* Adjust as needed */
+  overflow: hidden;
+  animation: slide-in-right 0.5s ease-in-out; /* Animate.css slide-in-right */
+  margin: 3px;
+  transition: transform 0.3s ease-in-out;
+  border: none;
+  border-radius: 5px; /* Slightly softer corners */
+}
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px; /* Match card corners */
+}
+.card-title {
+  text-align: center;
+  padding: 3px;
+  font-size: 12px;
+  font-family: sans-serif; /* More readable font */
+  background:#8a2be2;
+  color: #fff;
+  margin: 0;
+}
+
+p{
+  color:white;
+}
+
+h2{
+  color:ghostwhite;
+  margin-left:10px;
+  font-size: 15px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    position:center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+  margin-top:20px;
+    
+}
+
+.search-box {
+    width: 80%;
+    padding: 15px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.search-btn {
+    background: #8a2be2;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    right: 0;
+    top: 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.search-btn i {
+    color: white;
+    font-size: 24px;
+}
+
+.results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.result-card {
+    width: 45%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    animation: bounce 1s infinite;
+}
+
+
+
+.result-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    animation: none; /* Disable bouncing effect on hover */
+}
+
+h1{
+  color:whitesmoke;
+}
+h15{
+ color:ghostwhite;
+ text-align: center;
+}
+
+.result-card img {
+    width: 100%;
+    height: auto;
+}
+
+.result-card p {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.search-btn:hover {
+  transform: scale(1.1); /* Increase size on hover */
+}
+.search-btn i {
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+{
+  "nollywoodFilms": [
+    {
+      "title": "King of Boys: The Return of the King",
+      "vidmolyLink": "https://vidmoly.to/embed-4l6hlllfq8os.html",
+      "poster": "https://i.postimg.cc/rmRDDVxw/30.jpg",
+      "cast": ["Sola Sobowale", "Reminisce", "Toni Tones"],
+      "director": "Kemi Adetiba",
+      "releaseYear": 2022,
+      "genre": ["Crime", "Drama"],
+      "rating": 8.5,
+      "synopsis": "The powerful kingpin, Eniola Salami, returns to reclaim her throne in this gripping crime drama.",
+      "backdrop": "https://i.postimg.cc/rmRDDVxw/backdrop-king-of-boys.jpg"
+    },
+    {
+      "title": "Oloture",
+      "vidmolyLink": "https://vidmoly.to/987654321",
+      "poster": "https://i.postimg.cc/fW0dLKff/31.jpg",
+      "cast": ["Sharon Ooja", "Omoni Oboli", "Blossom Chukwujekwu"],
+      "director": "Kenneth Gyang",
+      "releaseYear": 2019,
+      "genre": ["Drama", "Crime"],
+      "rating": 7.8,
+      "synopsis": "A young journalist goes undercover to expose the dark world of human trafficking in Nigeria.",
+      "backdrop": "https://i.postimg.cc/fW0dLKff/backdrop-oloture.jpg"
+    },
+    {
+      "title": "October 1",
+      "vidmolyLink": "https://vidmoly.to/123456789",
+      "poster": "https://i.postimg.cc/vHgV4v7v/34.jpg",
+      "cast": ["Sadiq Daba", "Kunle Afolayan", "Demola Adedoyin"],
+      "director": "Kunle Afolayan",
+      "releaseYear": 2014,
+      "genre": ["Thriller", "Historical"],
+      "rating": 8.0,
+      "synopsis": "A psychological thriller set against the backdrop of Nigeria's journey to independence.",
+      "backdrop": "https://i.postimg.cc/vHgV4v7v/backdrop-october-1.jpg"
+    }
+  ]
+}
+

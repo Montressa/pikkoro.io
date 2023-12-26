@@ -1,0 +1,48 @@
+{
+  "tvSeries": [
+    {
+      "title": "Series Title 1",
+      "poster": "url_to_poster_image1.jpg",
+      "seasons": [
+        {
+          "seasonNumber": 1,
+          "episodes": [
+            {
+              "episodeNumber": 1,
+              "title": "Episode 1",
+              "vidmolyLink": "https://vidmoly.com/episode1"
+            },
+            {
+              "episodeNumber": 2,
+              "title": "Episode 2",
+              "vidmolyLink": "https://vidmoly.com/episode2"
+            }
+          ]
+        },
+        {
+          "seasonNumber": 2,
+          "episodes": [
+            {
+              "episodeNumber": 1,
+              "title": "Episode 1",
+              "vidmolyLink": "https://vidmoly.com/episode1_season2"
+            },
+            {
+              "episodeNumber": 2,
+              "title": "Episode 2",
+              "vidmolyLink": "https://vidmoly.com/episode2_season2"
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "title": "Series Title 2",
+      "poster": "url_to_poster_image2.jpg",
+      "seasons": [
+      ]
+    }
+
+  ]
+}

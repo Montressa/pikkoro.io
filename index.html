@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piccoloni Streaming Platform</title>
+    
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then((registration) => {
+        console.log('Service Worker registered with scope:', registration.scope);
+      })
+      .catch((error) => {
+        console.error('Service Worker registration failed:', error);
+      });
+  }
+</script>
+  <link rel="manifest" href="Manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  
+  <h6 class="changing-gradient-text">Piccolo</h6>
+    <h1>looking for something to watch?</h1>
+    <a class="watch-now-button" id="watchButton">watch</a>
+    <div id="loader" class="loader"></div>
+    <audio id="buttonSound" src="select-sound-121244.mp3"></audio>
+
+  <div class="footer">
+   <ul>
+  <li><a href="https://www.facebook.com/Piccoloni"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+  <li><a href="https://twitter.com/piccoloni"><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a></li>
+  <li><a href="https://www.instagram.com/piccoloni"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+   <li><a href="https://wa.link/fz1d3t"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></a></li>
+</ul> 
+</div>
+<div>
+<p2>We're still in beta testing, so you might experience a few minor bugs, but don't hesitate to let us know what you think and what you'd like to see in future versions.</p2>
+</div>
+  </header>
+  <div class="info">
+    <p>Available on Android, iOS, TVs, and the web. Watch your favorite shows anywhere, anytime.</p>
+    <p>Copyright © 2023 Piccolo. All rights reserved.Enjoy! </p>
+  </div>
+  <!-- Tutorial Pop Container -->
+    <div id="tutorial-container" class="tutorial-container">
+        <div class="tutorial-content">
+            <span class="dismiss-button" onclick="dismissTutorial()">X</span>
+            <h2>Welcome to Piccolo!</h2>
+            <j>ignore if you've done this already¡</j>
+            <p>Click on the three dots <i class="fa-solid fa-ellipsis-vertical fa-beat" style="color: #000000;"></i> in your browser, select <strong>Add to Homescreen</strong> or <strong>Install</strong> to enjoy Piccolo on your device. 🚀</p>
+            <div class="animated-icons">
+                <i class="fa-brands fa-android fa-bounce" style="color: #00c200;"></i>
+                <i class="fa-brands fa-apple fa-fade" style="color: #adadad;"></i>
+                <i class="fa-brands fa-windows fa-flip" style="color: #bf0000;"></i>
+                <i class="fa-brands fa-linux fa-beat-fade" style="color: #000000;"></i>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
